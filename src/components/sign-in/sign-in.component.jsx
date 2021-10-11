@@ -40,7 +40,7 @@ class SingIn extends React.Component {
             name='email'
             type='email'
             value={this.state.email}
-            handleChange={this.handleSubmit}
+            handleChange={this.handleChange}
             label='email'
             required
           />
